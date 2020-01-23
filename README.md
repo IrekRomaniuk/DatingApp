@@ -11,6 +11,13 @@ dotnet watch run
 http://localhost:5000/api/values
 ```
 
+Issues with migrations
+
+```
+dotnet ef database drop
+dotnet ef migrations remove // delete last migration
+dotnet ef database update
+```
 
 DatingApp-SPA
 ```
