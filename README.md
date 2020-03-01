@@ -41,3 +41,6 @@ Just kill the process...
 
 kill -9 5430
 ```
+### time-ago-pipe pipe issue
+https://www.udemy.com/course/build-an-app-with-aspnet-core-and-angular-from-scratch/learn/lecture/8715292#questions/8166162
+I solved the problem bu replacing the time-ago-pipe with the ngx-timeago (https://www.npmjs.com/package/ngx-timeago) as it seems to have solved the issue
